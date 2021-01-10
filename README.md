@@ -59,7 +59,7 @@ To train the network, run
 
 The accuracy of different sets are plotted in the figure below:
 
-
+![alt text](figure.jpeg)
 
 We can see the small bias between the illuminations, and we can overcome the bias through data augmentation methods. However, to research on the bias between dark color skin and light color skin, the experiments require more real dark color skin images. 
 
