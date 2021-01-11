@@ -1,4 +1,4 @@
-# sharing_is_caring
+# Sharing is Caring
 Code for project "Sharing is caring: share the code and data with community to improve the research".
 
 In this project, we aim at finding out the bias between different skin colors.  
