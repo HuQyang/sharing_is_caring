@@ -71,7 +71,7 @@ The accuracy of different sets are plotted in the figure below:
 
 We can see the small bias between the illuminations, and we can overcome the bias through data augmentation methods. However, to research on the bias between dark color skin and light color skin, the experiments require more real dark color skin images. 
 
-## Requirements:
+## Requirements
 1. python3.6
 2. tensorflow 2.0
 
