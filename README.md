@@ -14,23 +14,31 @@ Our network in trained with the skin cancer images from [ISIC 2019](https://chal
 ## Experiments
 In this code example, we use [ISIC 2019](https://challenge2019.isic-archive.com/) dataset for training and testing. ISIC 2019  has nine diagnostic categories:
 
-1.Melanoma
-2.Melanocytic nevus
-3.Basal cell carcinoma
-4.Actinic keratosis
-5.Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)
-6.Dermatofibroma
-7.Vascular lesion
-8.Squamous cell carcinoma
-9.None of the others
+1. Melanoma
 
-We simplify this dataset into two catogories, benign and maglinant.
+2. Melanocytic nevus
+
+3. Basal cell carcinoma
+
+4. Actinic keratosis
+
+5. Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)
+
+6. Dermatofibroma
+
+7. Vascular lesion
+
+8. Squamous cell carcinoma
+
+9. None of the others
+
+We simplify this dataset into two catogories, benign and malignant.
 
 benign: catogory 1,3,8 
 
-maglinant: catogory 2,4,5,7.
+malignant: catogory 2,4,5,7.
 
-(Catogory 6 and 9 are ambiguious to be considered as benign or maglinant, so we drop them.)
+(Catogory 6 and 9 are ambiguious to be considered as benign or malignant, so we drop them.)
 
 To test the bias of the illumination amnong the images, we experiment on different sets of data.
 
